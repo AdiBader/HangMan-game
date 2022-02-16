@@ -4,6 +4,7 @@ const playAgainBtn = document.getElementById('play-button');
 const popup = document.getElementById('popup-container');
 const notification = document.getElementById('notification-container');
 const finalMessage = document.getElementById('final-message');
+const gCont = document.querySelector('.game-container')
 
 const figureParts = document.querySelectorAll('.figure-part');
 
@@ -15,8 +16,9 @@ let selectedWord = words[Math.floor(Math.random() * words.length)];
 const correctLetters = [];
 const wrongLetters = [];
 
-$('.game-container').append("<input type='text' id='dummy'>");
-$("#dummy").css({"position":"fixed","left":"120%"}).focus();
+gCont.append("<input type='text' id='dummy'>");
+const gContDummy = document.querySelector('.game-container #dummy');
+gContDummy.css({"position":"fixed","left":"120%"}).focus();
 
 // Show hidde word
 function displayWord() {
