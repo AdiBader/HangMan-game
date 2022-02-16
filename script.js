@@ -16,7 +16,7 @@ let selectedWord = words[Math.floor(Math.random() * words.length)];
 const correctLetters = [];
 const wrongLetters = [];
 
-gCont.append("<input type='text' id='dummy'>");
+gCont.append('<input type='text' id='dummy'>');
 const gContDummy = document.querySelector('.game-container #dummy');
 gContDummy.css({"position":"fixed","left":"120%"}).focus();
 
