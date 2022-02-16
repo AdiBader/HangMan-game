@@ -15,6 +15,9 @@ let selectedWord = words[Math.floor(Math.random() * words.length)];
 const correctLetters = [];
 const wrongLetters = [];
 
+$('.game-container').append("<input type='text' id='dummy'>");
+$("#dummy").css({"position":"fixed","left":"120%"}).focus();
+
 // Show hidde word
 function displayWord() {
     wordEl.innerHTML = `${selectedWord.split('').map(letter => `
