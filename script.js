@@ -16,9 +16,6 @@ let selectedWord = words[Math.floor(Math.random() * words.length)];
 const correctLetters = [];
 const wrongLetters = [];
 
-gCont.insertAdjacentHTML("afterbegin" ,'<input type="text" id="dummy">');
-const gContDummy = document.querySelector('.game-container #dummy');
-gContDummy.focus();
 
 // Show hidde word
 function displayWord() {
