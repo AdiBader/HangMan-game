@@ -1,7 +1,7 @@
 {
-  "name": "hangman",
+  "name": "hm",
   "version": "1.0.0",
-  "description": "ish taluy",
+  "description": "hang adam",
   "main": "script.js",
   "scripts": {
     "start": "node server.js",
@@ -11,6 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2"
-  },
-  "devDependencies": {}
+  }
 }
