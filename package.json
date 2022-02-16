@@ -1,5 +1,5 @@
 {
-  "name": "ishtaluy",
+  "name": "hangman",
   "version": "1.0.0",
   "description": "ish taluy",
   "main": "script.js",
@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "devDependencies": {}
 }
