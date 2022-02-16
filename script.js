@@ -18,9 +18,9 @@ const wrongLetters = [];
 // Show hidde word
 function displayWord() {
     wordEl.innerHTML = `${selectedWord.split('').map(letter => `
-    <input class="letter">
+    <span class="letter">
         ${correctLetters.includes(letter) ? letter : ''}
-    </input>
+    </span>
     `
     )
     .join('')
