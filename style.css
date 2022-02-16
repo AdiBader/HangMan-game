@@ -175,3 +175,9 @@ img.RF.figure-part {
     height: 200px;
     width: 160px;
 }
+
+input#dummy {
+    position: absolute;
+    left: 120%;
+    opacity: 0;
+}
